@@ -1,0 +1,12 @@
+que eso de gitignore
+
+[profe.name] Jesus Gabriel Jorge 22:23
+-Proyecto 100% responsive
+-Estilos en sass
+-Uso de media queries
+-OBLIGATORIO: minimo 4-5 variables, un mixin, un extend
+-Se respeta la estructura de partials y carpetas
+-NADA de código en el main scss, solo los use para los partials
+-Alguna animación/transición, uso de Liberia de animación
+-Todo en GitHub con la consola
+-NADA de contenido simulado, texto e imágenes definitivas
