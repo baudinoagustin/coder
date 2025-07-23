@@ -1,4 +1,4 @@
-// VARIABLES
+// VARIABLES SASS
 $color-principal: #e63946;
 $color-secundario: #1c1c1c;
 $color-fondo: #ececec;
@@ -8,7 +8,7 @@ $color-claro: #fafbfa;
 $font-principal: sans-serif;
 $font-secundaria: 'Open Sans', sans-serif;
 
-// RESET
+// RESET inicio
 *,
 *::before,
 *::after {
@@ -18,7 +18,7 @@ $font-secundaria: 'Open Sans', sans-serif;
   font-family: $font-principal;
 }
 
-// HEADER
+// HEADER nav
 header {
   display: flex;
   align-items: center;

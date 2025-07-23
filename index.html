@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BaudinoBurgers</title>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/styles/styles-dist.css">
@@ -25,7 +27,7 @@
         </nav>
       </header>
     <script src="/js/main.js"></script>
-    <main>
+    <main data-aos="fade-up" data-aos-duration="3000">
       <article>
     <h1>Bienvenidos a BaudinoBurgers, el sabor que alegra tu día.</h1>
     <p>
@@ -221,6 +223,7 @@ cada desayuno es una experiencia para los sentidos, ideal para empezar el día c
                 </div>
             </section>
 
+            <!-- Card: Camping -->
             <section class="card-section">
                 <div class="card">
                     <div class="flip-card">
@@ -237,10 +240,10 @@ cada desayuno es una experiencia para los sentidos, ideal para empezar el día c
                                    c0-4.2-2.9-7.7-6.9-8.6V16.5l15,25.7l4.6,7.9H38.7z"/>
                                </svg>
                                                <h2 class="card-front__heading">
-                                                   Almuerzo Obrero
+                                                   Camping trek
                                                </h2>
                                                <p class="card-front__text-price">
-                                                   por $6800
+                                                   From £129
                                                </p>
                                 </div>
 
@@ -276,5 +279,10 @@ iseñamos un menú obrero y empresarial pensado para vos: abundante, sabroso, nu
     <footer>
             <p>© 2025 Agustin Baudino | @BaudinoBurgers</p>
     </footer>
+    <!-- aos -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+    </script>
 </body>
 </html>
